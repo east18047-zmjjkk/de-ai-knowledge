@@ -1,0 +1,39 @@
+{
+  "skill": "de-ai-knowledge",
+  "test_cases": [
+    {
+      "name": "diagnose_english_tells",
+      "input": "What AI tells are in this sentence: In today's digital landscape it is important to note that leveraging robust tools can unlock a transformative experience.",
+      "assertions": [
+        "Identifies multiple high-priority tells (landscape, important to note, leveraging, robust, unlock, transformative)",
+        "Offers or references plain alternatives",
+        "Does not invent new facts"
+      ]
+    },
+    {
+      "name": "chinese_tells_reference",
+      "input": "列出中文写作中常见的 AI 痕迹",
+      "assertions": [
+        "Mentions patterns such as 不是A而是B, 赋能, 随着……的发展, or similar",
+        "Notes that single occurrences are not automatic flags",
+        "References principles of minimal change or human interval"
+      ]
+    },
+    {
+      "name": "academic_vs_narrative",
+      "input": "How should AI-tell fixes differ for an academic paper versus a story?",
+      "assertions": [
+        "Distinguishes precision/formality for academic from showing/rhythm for narrative",
+        "Avoids recommending extreme anti-AI rewriting"
+      ]
+    },
+    {
+      "name": "principles_check",
+      "input": "What are the core principles when removing AI flavor?",
+      "assertions": [
+        "Includes information conservation and minimal necessary change",
+        "Mentions human interval rather than zeroing every tell"
+      ]
+    }
+  ]
+}

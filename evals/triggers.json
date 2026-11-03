@@ -1,0 +1,33 @@
+{
+  "skill": "de-ai-knowledge",
+  "test_cases": [
+    {
+      "input": "What are common AI writing tells in English?",
+      "should_trigger": true
+    },
+    {
+      "input": "中文去 AI 味有哪些常见痕迹",
+      "should_trigger": true
+    },
+    {
+      "input": "Diagnose the AI flavor in this draft",
+      "should_trigger": true
+    },
+    {
+      "input": "Give me a reference list for humanizing academic writing",
+      "should_trigger": true
+    },
+    {
+      "input": "What's the weather today?",
+      "should_trigger": false
+    },
+    {
+      "input": "Write a Python sort function",
+      "should_trigger": false
+    },
+    {
+      "input": "Summarize this article in one paragraph",
+      "should_trigger": false
+    }
+  ]
+}
